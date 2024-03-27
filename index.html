@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Rating Component</title>
+  </head>
+  <body>
+    <div class="container container_1">
+      <div id="top_image">
+        <img src="images/icon-star.svg" alt="star">
+      </div>
+      <div id="question">
+        <h2>How did we do?</h2>
+        <p>Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+      </div>
+      <div id="numbers">
+        <button class="boton one">1</button>
+        <button class="boton two">2</button>
+        <button class="boton three">3</button>
+        <button class="boton four">4</button>
+        <button class="boton five">5</button>
+      </div>
+      <div id="submit">
+        <button id="submit-btn">SUBMIT</button>
+      </div>
+    </div>
+    <div class="container container_2">
+      <div id="image_output">
+        <img src="images/illustration-thank-you.svg" alt="thanks">
+      </div>     
+      <div id="selected">
+        <p>You selected <span class="rating_output"></span> out of 5</p>
+      </div>
+      <div id="thanks">
+        <h2>Thank you!</h2>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
